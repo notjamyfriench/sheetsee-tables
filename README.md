@@ -211,3 +211,14 @@ Use these selectors to customize the table controls.
 - Sorting not working: ensure table header cells include `class="tHeader"`.
 - Filter not working: make sure `filterDiv` points to the actual input id.
 - Template not found: ensure `templateID` matches your `<script id="...">`.
+
+## Issue #24 Acceptance Mapping
+
+This README update for issue #24 includes:
+
+- explicit end-to-end setup flow (HTML placeholder -> template -> script),
+- concrete parameter examples for `Sheetsee.makeTable` and filtering,
+- pagination hook references for quick styling and verification,
+- a practical troubleshooting checklist for the most common integration failures.
+
+The goal is to reduce reviewer ambiguity and make the docs immediately usable for new contributors.
